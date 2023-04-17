@@ -1,0 +1,20 @@
+root         1     0  0 21:08 ?        00:00:00 /init
+root         4     1  0 21:08 ?        00:00:03 plan9 --control-socket 5 --log-level 4 --server-fd 6 --pipe-fd 8 --log-truncate
+root        44     1  0 21:08 ?        00:00:00 /init
+hardik1+    61    44  0 21:08 ?        00:00:00 dbus-launch --autolaunch=a31d78baa7c654382a0e1e8f63df6e4f --binary-syntax --close-stderr
+hardik1+    62    44  0 21:08 ?        00:00:00 /usr/bin/dbus-daemon --syslog-only --fork --print-pid 5 --print-address 7 --session
+hardik1+    68    44  0 21:08 ?        00:00:00 /usr/libexec/at-spi-bus-launcher
+hardik1+    73    68  0 21:08 ?        00:00:00 /usr/bin/dbus-daemon --config-file=/usr/share/defaults/at-spi2/accessibility.conf --nofork --print-address 11 --address=unix:path=/mnt/wslg/runtime-dir/at-spi/bus_0
+hardik1+    75    44  0 21:08 ?        00:00:00 /usr/libexec/xdg-desktop-portal
+hardik1+    80    44  0 21:08 ?        00:00:00 /usr/libexec/xdg-document-portal
+hardik1+    84    44  0 21:08 ?        00:00:00 /usr/libexec/xdg-permission-store
+root        90    80  0 21:08 ?        00:00:00 fusermount3 -o rw,nosuid,nodev,fsname=portal,auto_unmount,subtype=portal -- /mnt/wslg/runtime-dir/doc
+hardik1+    94    44  0 21:08 ?        00:00:00 /usr/libexec/xdg-desktop-portal-gtk
+hardik1+   100    44  0 21:08 ?        00:00:00 /usr/libexec/at-spi2-registryd --use-gnome-session
+hardik1+   107    44  0 21:08 ?        00:00:00 /usr/libexec/dconf-service
+root       928     1  0 22:03 ?        00:00:00 /init
+root       929   928  0 22:03 ?        00:00:00 /init
+hardik1+   930   929  0 22:03 pts/0    00:00:00 -bash
+hardik1+  1326   930  0 22:19 pts/0    00:00:00 bash 4.sh 0
+hardik1+  1331  1326  0 22:19 pts/0    00:00:00 ps -ef
+hardik1+  1332  1326  0 22:19 pts/0    00:00:00 grep -w 0

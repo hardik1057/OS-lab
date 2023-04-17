@@ -1,0 +1,10 @@
+  Krishna  present 9.55 2105102
+ Gobinda  9.56     2105101
+ Hari    9.57 2105110
+Murari  present 9.58  2105123
+Gopal    9.59 2105105
+  Giridhari 10.00  2105107
+    Rama 10.01 2105108
+Madhusudan   present 10.02 2105109
+Narahari 10.03 2105103
+Damodar     10.04 2105104
